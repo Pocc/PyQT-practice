@@ -1,0 +1,1 @@
+PyQT5 practice based on [this](https://www.youtube.com/playlist?list=PLZocUikpczs-Yud2lyFpSNQOvxuPUVBDp) youtube playlist.
