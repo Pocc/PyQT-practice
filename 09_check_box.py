@@ -1,9 +1,8 @@
 import sys
-from PyQt5.QtWidgets import (QLineEdit, QSlider, QPushButton, QVBoxLayout, QApplication, QWidget)
-from PyQt5.QtCore import Qt
-# Note that we're importing more intelligently so that we don't need to specify sublibraries of QtWidgets
+from PyQt5.QtWidgets import (QLabel, QCheckBox, QPushButton, QVBoxLayout, QApplication, QWidget)
 
 
+# This program prints a string to the window when the user clicks a checkbox and then clicks a button
 class Window(QWidget):
 
     def __init__(self):
@@ -12,42 +11,26 @@ class Window(QWidget):
         self.init_ui()
 
     def init_ui(self):
-        self.le = QLineEdit()
-        self.b1 = QPushButton('Clear')
-        self.b2 = QPushButton('Print')
-        self.s1 = QSlider(Qt.Horizontal)
-        self.s1.setMinimum(1)
-        self.s1.setMaximum(99)
-        self.s1.setValue(25)
-        self.s1.setTickInterval(10)
-        self.s1.setTickPosition(QSlider.TicksBelow)
+        self.lbl = QLabel()
+        self.chx = QCheckBox('Do you like dogs?')
+        self.btn = QPushButton('Push Me!')
 
-        v_box = QVBoxLayout()
-        v_box.addWidget(self.le)
-        v_box.addWidget(self.b1)
-        v_box.addWidget(self.b2)
-        v_box.addWidget(self.s1)
+        layout = QVBoxLayout()
+        layout.addWidget(self.lbl)
+        layout.addWidget(self.chx)
+        layout.addWidget(self.btn)
 
-        self.setLayout(v_box)
-        self.setWindowTitle('PyQt5 lesson 8')
+        self.setLayout(layout)
 
-        self.b1.clicked.connect(lambda: self.btn_clk(self.b1, 'Hello from clear'))
-        self.b2.clicked.connect(lambda: self.btn_clk(self.b1, 'Hello from print'))
-        self.s1.valueChanged.connect(self.v_change)
+        self.btn.clicked.connect(lambda: self.btn_clk(self.chx.isChecked(), self.lbl))
 
         self.show()
 
-    def btn_clk(self, b, string):
-        if b.text() == 'Print':
-            print(self.le.text)
+    def btn_clk(self, chk, lbl):
+        if chk:
+            lbl.setText('I guess you like dogs')
         else:
-            self.le.clear()
-        print(string)
-
-    def v_change(self):
-        my_value = str(self.s1.value())
-        self.le.setText(my_value)
-
+            lbl.setText('Dog hater then')
 
 app = QApplication(sys.argv)
 a_window = Window()

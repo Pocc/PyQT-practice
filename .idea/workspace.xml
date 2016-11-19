@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5a8eaba2-1d21-49a1-96cc-59b197c42ce4" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/08_slider.py" afterPath="$PROJECT_DIR$/08_slider.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/09_check_box.py" afterPath="$PROJECT_DIR$/09_check_box.py" />
     </list>
     <ignored path="PyQT5.iws" />
@@ -28,18 +27,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
               <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
-              <folding>
-                <element signature="e#0#10#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="02_label.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/02_label.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="18" selection-end-column="8" />
               <folding>
                 <element signature="e#0#10#0" expanded="true" />
               </folding>
@@ -119,14 +106,24 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="09_check_box.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="09_check_box.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/09_check_box.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="538">
-              <caret line="33" column="29" selection-start-line="33" selection-start-column="29" selection-end-line="33" selection-end-column="29" />
+            <state relative-caret-position="68">
+              <caret line="4" column="44" selection-start-line="4" selection-start-column="44" selection-end-line="4" selection-end-column="44" />
               <folding>
                 <element signature="e#0#10#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="10_qradio_button.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/10_qradio_button.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -256,24 +253,7 @@
       <recent name="C:\Users\rjacobs\github\pyqt-practice\rsc" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.08_slider">
-    <configuration default="false" name="04_box_layout" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="pyqt-practice" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/04_box_layout.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="Python.09_check_box">
     <configuration default="false" name="05_signals_and_slots" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -338,6 +318,23 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="pyqt-practice" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/07_line_edit_with_actions.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="09_check_box" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="pyqt-practice" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/09_check_box.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
@@ -477,19 +474,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Python.04_box_layout" />
-      <item index="1" class="java.lang.String" itemvalue="Python.05_signals_and_slots" />
-      <item index="2" class="java.lang.String" itemvalue="Python.08_slider" />
-      <item index="3" class="java.lang.String" itemvalue="Python.06_line_edit" />
-      <item index="4" class="java.lang.String" itemvalue="Python.07_line_edit_with_actions" />
+      <item index="0" class="java.lang.String" itemvalue="Python.05_signals_and_slots" />
+      <item index="1" class="java.lang.String" itemvalue="Python.08_slider" />
+      <item index="2" class="java.lang.String" itemvalue="Python.06_line_edit" />
+      <item index="3" class="java.lang.String" itemvalue="Python.07_line_edit_with_actions" />
+      <item index="4" class="java.lang.String" itemvalue="Python.09_check_box" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.08_slider" />
-        <item index="1" class="java.lang.String" itemvalue="Python.07_line_edit_with_actions" />
-        <item index="2" class="java.lang.String" itemvalue="Python.06_line_edit" />
-        <item index="3" class="java.lang.String" itemvalue="Python.05_signals_and_slots" />
-        <item index="4" class="java.lang.String" itemvalue="Python.04_box_layout" />
+        <item index="0" class="java.lang.String" itemvalue="Python.09_check_box" />
+        <item index="1" class="java.lang.String" itemvalue="Python.08_slider" />
+        <item index="2" class="java.lang.String" itemvalue="Python.07_line_edit_with_actions" />
+        <item index="3" class="java.lang.String" itemvalue="Python.06_line_edit" />
+        <item index="4" class="java.lang.String" itemvalue="Python.05_signals_and_slots" />
       </list>
     </recent_temporary>
   </component>
@@ -672,13 +669,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/9_check_box.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/10_qradio_button.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -871,11 +861,19 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/09_check_box.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="538">
-          <caret line="33" column="29" selection-start-line="33" selection-start-column="29" selection-end-line="33" selection-end-column="29" />
+        <state relative-caret-position="68">
+          <caret line="4" column="44" selection-start-line="4" selection-start-column="44" selection-end-line="4" selection-end-column="44" />
           <folding>
             <element signature="e#0#10#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/10_qradio_button.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
