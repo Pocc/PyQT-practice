@@ -17,11 +17,15 @@ class Notepad(QWidget):
         layout.addWidget(self.text)
         layout.addWidget(self.text2)
         layout.addWidget(self.clr_btn)
+        self.clr_btn.clicked.connect(self.clear_text)
 
         self.setLayout(layout)
         self.setWindowTitle('PyQt5 TextEdit')
 
         self.show()
+
+    def clear_text(self):
+        self.text.clear()
 
 app = QApplication(sys.argv)
 writer = Notepad()
