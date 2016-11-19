@@ -2,13 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5a8eaba2-1d21-49a1-96cc-59b197c42ce4" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rsc/globe.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/.idea/PyQT-practice.iml" afterPath="$PROJECT_DIR$/.idea/pyqt-practice.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/01_basic_window.py" afterPath="$PROJECT_DIR$/01_basic_window.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/02_label.py" afterPath="$PROJECT_DIR$/02_label.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/03_push_button.py" afterPath="$PROJECT_DIR$/03_push_button.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/04_box_layout.py" afterPath="$PROJECT_DIR$/04_box_layout.py" />
     </list>
     <ignored path="PyQT5.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -28,16 +24,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="14_menu_bars.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/14_menu_bars.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="15_notepad_with_menu_bar.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/15_notepad_with_menu_bar.py">
           <provider selected="true" editor-type-id="text-editor">
@@ -91,8 +77,8 @@
       <file leaf-file-name="01_basic_window.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/01_basic_window.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="16" column="26" selection-start-line="16" selection-start-column="26" selection-end-line="16" selection-end-column="26" />
+            <state relative-caret-position="0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
               <folding>
                 <element signature="e#0#10#0" expanded="true" />
               </folding>
@@ -100,11 +86,35 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="02_label.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="02_label.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/02_label.py">
           <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="18" selection-end-column="8" />
+              <folding>
+                <element signature="e#0#10#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="03_push_button.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/03_push_button.py">
+          <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="221">
-              <caret line="13" column="28" selection-start-line="13" selection-start-column="28" selection-end-line="13" selection-end-column="28" />
+              <caret line="13" column="18" selection-start-line="13" selection-start-column="18" selection-end-line="13" selection-end-column="18" />
+              <folding>
+                <element signature="e#0#10#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="04_box_layout.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/04_box_layout.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="289">
+              <caret line="17" column="69" selection-start-line="17" selection-start-column="69" selection-end-line="17" selection-end-column="69" />
               <folding>
                 <element signature="e#0#10#0" expanded="true" />
               </folding>
@@ -164,6 +174,8 @@
         <option value="$PROJECT_DIR$/19_QTableWidget_spreadsheet_proj_part4.py" />
         <option value="$PROJECT_DIR$/01_basic_window.py" />
         <option value="$PROJECT_DIR$/02_label.py" />
+        <option value="$PROJECT_DIR$/03_push_button.py" />
+        <option value="$PROJECT_DIR$/04_box_layout.py" />
       </list>
     </option>
   </component>
@@ -216,6 +228,20 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="pyqt-practice" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="pyqt-practice" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="rsc" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
       <pane id="Scratches" />
@@ -230,7 +256,7 @@
       <recent name="C:\Users\rjacobs\github\pyqt-practice\rsc" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.02_label">
+  <component name="RunManager" selected="Python.04_box_layout">
     <configuration default="false" name="basicWindow" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -278,6 +304,40 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="pyqt-practice" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/02_label.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="03_push_button" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="pyqt-practice" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/03_push_button.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="04_box_layout" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="pyqt-practice" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/04_box_layout.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
@@ -416,16 +476,20 @@
       <option name="USE_KEYWORD" value="false" />
       <method />
     </configuration>
-    <list size="3">
+    <list size="5">
       <item index="0" class="java.lang.String" itemvalue="Python.basicWindow" />
       <item index="1" class="java.lang.String" itemvalue="Python.01_basic_window" />
       <item index="2" class="java.lang.String" itemvalue="Python.02_label" />
+      <item index="3" class="java.lang.String" itemvalue="Python.03_push_button" />
+      <item index="4" class="java.lang.String" itemvalue="Python.04_box_layout" />
     </list>
     <recent_temporary>
-      <list size="3">
-        <item index="0" class="java.lang.String" itemvalue="Python.02_label" />
-        <item index="1" class="java.lang.String" itemvalue="Python.01_basic_window" />
-        <item index="2" class="java.lang.String" itemvalue="Python.basicWindow" />
+      <list size="5">
+        <item index="0" class="java.lang.String" itemvalue="Python.04_box_layout" />
+        <item index="1" class="java.lang.String" itemvalue="Python.03_push_button" />
+        <item index="2" class="java.lang.String" itemvalue="Python.02_label" />
+        <item index="3" class="java.lang.String" itemvalue="Python.01_basic_window" />
+        <item index="4" class="java.lang.String" itemvalue="Python.basicWindow" />
       </list>
     </recent_temporary>
   </component>
@@ -701,16 +765,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/01_basic_window.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" column="26" selection-start-line="16" selection-start-column="26" selection-end-line="16" selection-end-column="26" />
-          <folding>
-            <element signature="e#0#10#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/AppData/Local/Temp/globe.png">
       <provider selected="true" editor-type-id="images">
         <state />
@@ -730,10 +784,45 @@
         <state />
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/rsc/globe.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/02_label.py">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="18" selection-end-column="8" />
+          <folding>
+            <element signature="e#0#10#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/03_push_button.py">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="221">
-          <caret line="13" column="28" selection-start-line="13" selection-start-column="28" selection-end-line="13" selection-end-column="28" />
+          <caret line="13" column="18" selection-start-line="13" selection-start-column="18" selection-end-line="13" selection-end-column="18" />
+          <folding>
+            <element signature="e#0#10#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/01_basic_window.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#10#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/04_box_layout.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" column="69" selection-start-line="17" selection-start-column="69" selection-end-line="17" selection-end-column="69" />
           <folding>
             <element signature="e#0#10#0" expanded="true" />
           </folding>
