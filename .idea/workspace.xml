@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5a8eaba2-1d21-49a1-96cc-59b197c42ce4" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/07_line_edit_with_actions.py" afterPath="$PROJECT_DIR$/07_line_edit_with_actions.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/08_slider.py" afterPath="$PROJECT_DIR$/08_slider.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/09_check_box.py" afterPath="$PROJECT_DIR$/09_check_box.py" />
     </list>
     <ignored path="PyQT5.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -23,16 +23,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="19_QTableWidget_spreadsheet_proj_part4.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/19_QTableWidget_spreadsheet_proj_part4.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="01_basic_window.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/01_basic_window.py">
           <provider selected="true" editor-type-id="text-editor">
@@ -105,11 +95,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="07_line_edit_with_actions.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="07_line_edit_with_actions.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/07_line_edit_with_actions.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="7" column="23" selection-start-line="7" selection-start-column="23" selection-end-line="7" selection-end-column="23" />
+            <state relative-caret-position="374">
+              <caret line="22" column="32" selection-start-line="22" selection-start-column="32" selection-end-line="22" selection-end-column="32" />
               <folding>
                 <element signature="e#0#10#0" expanded="true" />
               </folding>
@@ -120,9 +110,23 @@
       <file leaf-file-name="08_slider.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/08_slider.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
+            <state relative-caret-position="389">
+              <caret line="46" column="23" selection-start-line="0" selection-start-column="0" selection-end-line="53" selection-end-column="21" />
+              <folding>
+                <element signature="e#0#10#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="09_check_box.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/09_check_box.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="538">
+              <caret line="33" column="29" selection-start-line="33" selection-start-column="29" selection-end-line="33" selection-end-column="29" />
+              <folding>
+                <element signature="e#0#10#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -183,8 +187,9 @@
         <option value="$PROJECT_DIR$/04_box_layout.py" />
         <option value="$PROJECT_DIR$/05_signals_and_slots.py" />
         <option value="$PROJECT_DIR$/06_line_edit.py" />
-        <option value="$PROJECT_DIR$/08_slider.py" />
         <option value="$PROJECT_DIR$/07_line_edit_with_actions.py" />
+        <option value="$PROJECT_DIR$/08_slider.py" />
+        <option value="$PROJECT_DIR$/09_check_box.py" />
       </list>
     </option>
   </component>
@@ -251,7 +256,7 @@
       <recent name="C:\Users\rjacobs\github\pyqt-practice\rsc" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.07_line_edit_with_actions">
+  <component name="RunManager" selected="Python.08_slider">
     <configuration default="false" name="04_box_layout" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -480,9 +485,9 @@
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.07_line_edit_with_actions" />
-        <item index="1" class="java.lang.String" itemvalue="Python.06_line_edit" />
-        <item index="2" class="java.lang.String" itemvalue="Python.08_slider" />
+        <item index="0" class="java.lang.String" itemvalue="Python.08_slider" />
+        <item index="1" class="java.lang.String" itemvalue="Python.07_line_edit_with_actions" />
+        <item index="2" class="java.lang.String" itemvalue="Python.06_line_edit" />
         <item index="3" class="java.lang.String" itemvalue="Python.05_signals_and_slots" />
         <item index="4" class="java.lang.String" itemvalue="Python.04_box_layout" />
       </list>
@@ -834,14 +839,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/08_slider.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/06_line_edit.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -854,8 +851,28 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/07_line_edit_with_actions.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="23" selection-start-line="7" selection-start-column="23" selection-end-line="7" selection-end-column="23" />
+        <state relative-caret-position="374">
+          <caret line="22" column="32" selection-start-line="22" selection-start-column="32" selection-end-line="22" selection-end-column="32" />
+          <folding>
+            <element signature="e#0#10#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/08_slider.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="389">
+          <caret line="46" column="23" selection-start-line="0" selection-start-column="0" selection-end-line="53" selection-end-column="21" />
+          <folding>
+            <element signature="e#0#10#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/09_check_box.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="538">
+          <caret line="33" column="29" selection-start-line="33" selection-start-column="29" selection-end-line="33" selection-end-column="29" />
           <folding>
             <element signature="e#0#10#0" expanded="true" />
           </folding>
