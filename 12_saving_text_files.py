@@ -26,6 +26,7 @@ class Notepad(QWidget):
         self.show()
 
     def save_text(self):
+        # This is the pythonic way, not the QT way
         with open('test.txt', 'w') as f:
             my_text = self.text.toPlainText()
             f.write(my_text)
