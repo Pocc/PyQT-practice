@@ -2,10 +2,6 @@ import sys, os
 from PyQt5.QtWidgets import QApplication, QMainWindow, QWidget
 from PyQt5.QtWidgets import QTextEdit, QPushButton, QVBoxLayout, QHBoxLayout, QAction, qApp
 
-import sys, os
-from PyQt5.QtWidgets import QApplication, QTextEdit, QWidget, QPushButton, QVBoxLayout, QHBoxLayout, QFileDialog
-
-
 
 # This program will save a file (first text box) and throw out text (second text box)
 class Notepad(QWidget):
